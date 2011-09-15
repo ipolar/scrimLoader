@@ -3,7 +3,7 @@
 1. Drop the .h and .m into your into the Plugins folder of your iPhone Project
 2. To start the spinner from js call Phonegap.exec('ScrimLoader.showScrimLoader');
 3. To stop the spinner from js call Phonegap.exec('ScrimLoader.dismissScrimLoader');
-4. More info can be found [here](nigeslice.blogspot.com)
+4. More info can be found [here](http://nigeslice.blogspot.com)
 
 **Why use it**
 
