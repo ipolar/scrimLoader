@@ -5,6 +5,8 @@
 3. To stop the spinner from js call Phonegap.exec('ScrimLoader.dismissScrimLoader');
 4. More info can be found [here](http://nigeslice.blogspot.com)
 
+NB Only works with phonegap iphone apps!
+
 **Why use it**
 
 An ajax spinner has to be robust. It cannot stutter or flicker because it is a fundamental indicator to the user that your app is processing
