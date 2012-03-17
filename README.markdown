@@ -1,11 +1,18 @@
 **How to use it**
 
 1. Drop the .h and .m into your into the Plugins folder of your iPhone Project
-2. To start the spinner from js call Phonegap.exec('ScrimLoader.showScrimLoader');
-3. To stop the spinner from js call Phonegap.exec('ScrimLoader.dismissScrimLoader');
-4. More info can be found [here](http://nigeslice.blogspot.com)
+2. Add the .js file to your www/js folder and include it in your HTML file
+3. Add ScrimLoader to the plugins section of your Cordova.plist file
+4. Inside your main JS file, you can create a scrimLoader instance by calling "scrimLoader = window.plugins.scrimLoader;"
+5. Then to start the spinner from js call "scrimLoader.showLoader();"
+6. To stop the spinner from js call "scrimLoader.hideLoader();"
 
-NB Only works with phonegap iphone apps!
+NB Only works with iPhone apps using the Cordova framework (used to be called PhoneGap)
+
+**Thanks**
+
+Many thanks to [Nigel Kelly](https://github.com/nigekelly/) for provding the original PhoneGap plugin which you can find [here](https://github.com/nigekelly/scrimLoader)
+Also check out [Nigel's blog](http://nigeslice.blogspot.com) which has more details on the original plugin .
 
 **Why use it**
 
